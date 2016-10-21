@@ -1,0 +1,537 @@
+                                         .img-1 {
+                                             background-image: url("pic.png");
+                                             height: 700px;
+
+                                         }
+
+                                         .conteiner {
+                                             padding: 30px;
+                                         }
+
+                                         .navbar-static-top {
+                                             background-color: white;
+                                             border-bottom: none;
+                                         }
+
+                                         .navbar-brand {
+                                             padding-left: 20px;
+                                             font-family: 'Playfair Display';
+                                             font-size: 26px;
+                                             font-style: italic;
+                                             color: #0e0e0e;
+                                             font-weight: 600;
+                                         }
+
+                                         .nav {
+                                             font-size: 14px;
+                                             color: #0e0e0e;
+                                             padding-top: 0px;
+                                             padding-left: 500px;
+                                             text-decoration: none;
+                                             font-weight: 600;
+                                             font-family: 'Source Sans Pro';
+                                         }
+
+.links{
+    float: right;
+    padding: 15px;
+    font-family: 'source sans pro';
+}
+.links2{
+    float: right;
+    padding: 15px;
+    color:chartreuse;
+    font-family: 'source sans pro';
+}
+                                         .conteiner {
+                                             padding-left: 80px;
+                                             margin-bottom: 0px;
+                                             padding-top: 14px;
+                                             padding-bottom: 0px;
+                                             display: block;
+                                         }
+
+                                         a.link-none {
+                                             padding-left: 15px;
+                                             font-weight: 600;
+                                             color: #96c218;
+                                             text-decoration: none;
+                                         }
+
+                                         .text {
+                                             font-weight: 800;
+                                             line-height: 66px;
+                                             text-align: center;
+                                             font-family: 'Arial Black' 'Source Sans Pro';
+                                             font-size: 80px;
+                                             color: white;
+                                         }
+
+                                         .btn-default2 {
+                                             margin-left: 530px;
+                                             width: 280;
+                                             height: 60;
+                                             font-family: 'Source Sans Pro';
+                                             font-size: 16px;
+                                             margin-top: 150px;
+                                         }
+.btn-success2 {
+                                             position: absolute;
+                                             margin-left: 530px;
+                                             width: 280;
+                                             height: 60;
+                                             font-family: 'Source Sans Pro';
+                                             font-size: 16px;
+                                             margin-top: 50px;
+                                         }
+
+
+
+
+
+
+
+
+
+
+                                         .row {
+                                             margin-right: 3px;
+                                         }
+
+                                         .text2 {
+                                             text-align: center;
+                                             color: white;
+                                             font-family: 'Source Sans Pro';
+                                             font-style: italic;
+                                             font-size: 26px;
+                                             margin-top: 40px;
+                                         }
+
+                                         .photo1 {
+                                             position: absolute;
+                                             padding-top: 47px;
+                                             padding-left: 560px;
+                                         }
+
+                                         .photo2 {
+                                             padding-top: 50px;
+                                             position: absolute;
+                                             padding-left: 520px;
+                                         }
+
+                                         .name {
+                                             position: absolute;
+                                             color: white;
+                                             font-family: 'PT Serif';
+                                             font-size: 16px;
+                                             padding-left: 600px;
+                                             padding-top: 55px;
+                                             font-style: italic;
+                                             font-weight: 600;
+                                         }
+
+                                         .date {
+                                             position: absolute;
+                                             color: white;
+                                             font-family: 'Source Sans Pro';
+                                             font-size: 13px;
+                                             padding-top: 80px;
+                                             padding-left: 600px;
+                                         }
+
+
+                                         .fa-long-arrow-right {
+                                             position: absolute;
+                                             padding-left: 8px;
+                                         }
+
+                                         .title {
+                                             font-weight: 800;
+                                             color: black;
+                                             text-align: center;
+                                             font-family: 'Playfair Display ';
+                                             font-size: 60px;
+                                             padding-top: 100px;
+                                         }
+
+                                         .story {
+                                             text-align: center;
+                                             font-family: 'Pt Serif';
+                                             font-size: 18px;
+                                             padding-top: 50px;
+                                             color: #666666;
+                                             line-height: 28px;
+                                         }
+
+
+
+                                         .main-conteiner {
+                                             padding-left: 40px;
+                                         }
+
+                                         .title1 {
+                                             font-weight: 800;
+                                             color: black;
+                                             text-align: center;
+                                             font-family: 'Playfair Display ';
+                                             font-size: 60px;
+                                             padding-top: 100px;
+                                         }
+
+                                         .story1 {
+                                             text-align: center;
+                                             font-family: 'Pt Serif';
+                                             font-size: 18px;
+                                             color: #666666;
+                                             line-height: 28px;
+                                         }
+
+                                         hr {
+                                             padding-bottom: 0px;
+                                             margin-bottom: 0px;
+                                             margin-top: 190px;
+                                             color: #96c218;
+                                             !important;
+                                         }
+
+                                         .photo3 {
+                                             position: absolute;
+                                             padding-top: 107px;
+                                             padding-left: 200px;
+                                         }
+
+                                         .name1 {
+                                             position: absolute;
+                                             color: black;
+                                             font-family: 'PT Serif';
+                                             font-size: 16px;
+                                             padding-left: 270px;
+                                             padding-top: 115px;
+                                             font-style: italic;
+                                             font-weight: 600;
+                                         }
+
+                                         .date1 {
+                                             position: absolute;
+                                             color: #666666;
+                                             font-family: 'Source Sans Pro';
+                                             font-size: 13px;
+                                             padding-top: 140px;
+                                             padding-left: 270px;
+                                         }
+
+                                         .man1 {
+                                             font-weight: 500;
+                                             position: absolute;
+                                             color: #666666;
+                                             font-family: 'Pt Serif';
+                                             font-size: 16px;
+                                             padding-top: 180px;
+                                             padding-left: 200px;
+                                             font-style: italic;
+                                         }
+
+                                         .photo4 {
+                                             position: absolute;
+                                             padding-top: 107px;
+                                             padding-left: 550px;
+                                         }
+
+                                         .name2 {
+                                             position: absolute;
+                                             color: black;
+                                             font-family: 'PT Serif';
+                                             font-size: 16px;
+                                             padding-left: 620px;
+                                             padding-top: 115px;
+                                             font-style: italic;
+                                             font-weight: 600;
+                                         }
+
+                                         .date2 {
+                                             position: absolute;
+                                             color: #666666;
+                                             font-family: 'Source Sans Pro';
+                                             font-size: 13px;
+                                             padding-top: 140px;
+                                             padding-left: 620px;
+                                         }
+
+                                         .man2 {
+                                             font-weight: 500;
+                                             position: absolute;
+                                             color: #666666;
+                                             font-family: 'Pt Serif';
+                                             font-size: 16px;
+                                             padding-top: 180px;
+                                             padding-left: 550px;
+                                             font-style: italic;
+                                         }
+
+                                         .photo5 {
+                                             position: absolute;
+                                             padding-top: 107px;
+                                             padding-left: 900px;
+                                         }
+
+                                         .name3 {
+                                             position: absolute;
+                                             color: black;
+                                             font-family: 'PT Serif';
+                                             font-size: 16px;
+                                             padding-left: 970px;
+                                             padding-top: 115px;
+                                             font-style: italic;
+                                             font-weight: 600;
+                                         }
+
+                                         .date3 {
+                                             position: absolute;
+                                             color: #666666;
+                                             font-family: 'Source Sans Pro';
+                                             font-size: 13px;
+                                             padding-top: 140px;
+                                             padding-left: 970px;
+                                         }
+
+                                         .man3 {
+                                             font-weight: 500;
+                                             position: absolute;
+                                             color: #666666;
+                                             font-family: 'Pt Serif';
+                                             font-size: 16px;
+                                             padding-top: 180px;
+                                             padding-left: 900px;
+                                             font-style: italic;
+                                         }
+
+                                         .main {
+                                             padding-bottom: 0px;
+                                             margin-bottom: 0px;
+                                             margin-top: 400px;
+                                             color: #96c218;
+                                             !important;
+                                         }
+
+                                         .title2 {
+                                             font-weight: 800;
+                                             color: black;
+                                             text-align: center;
+                                             font-family: 'Playfair Display ';
+                                             font-size: 60px;
+                                             padding-top: 100px;
+                                         }
+
+                                         .btn-default1 {
+                                             border-color: #f5f5f5;
+                                             padding-top: 20px;
+                                             height: 60px;
+                                             width: 430px;
+                                             background-color: #f5f5f5;
+                                         }
+
+                                         .btn-success1 {
+                                             border-color: #96c218;
+                                             background-color: #96c218;
+                                             width: 280;
+                                             height: 60;
+                                             font-family: 'Source Sans Pro';
+                                             font-size: 16px;
+                                             padding-top: 20px;
+                                         }
+
+                                         .btn-group-main {
+                                             margin-left: 330px;
+                                             text-align: center;
+                                             font-family: 'Source Sans Pro';
+                                             font-size: 16px;
+                                             margin-top: 50px;
+                                         }
+
+                                         .conteiner-fluid {
+                                             margin-top: 80px;
+                                             background-color: #2d2d2d;
+                                             height: 230px;
+                                         }
+
+                                         .logo {
+                                             margin-left: 100px;
+                                             position: absolute;
+                                             padding-top: 40px;
+                                             font-family: 'Playfair Display';
+                                             font-size: 26px;
+                                             font-style: italic;
+                                             color: white;
+                                             font-weight: 600;
+                                         }
+
+                                         .first-list {
+                                             line-height: 30px;
+                                             list-style: none;
+                                             text-decoration: none;
+                                             padding-top: 40px;
+                                             padding-left: 300px;
+                                         }
+
+                                         .logo-list1 {
+                                             font-weight: 500;
+                                             color: white;
+                                             font-family: 'Source Sans Pro';
+                                             font-size: 16px;
+                                         }
+
+                                         .just-list1 {
+                                             text-decoration: none;
+                                             color: white;
+                                             font-family: 'Pt Serif';
+                                             font-size: 14px;
+                                         }
+
+                                         .second-list {
+                                             margin-top: -130px;
+                                             line-height: 30px;
+                                             list-style: none;
+                                             text-decoration: none;
+                                             padding-left: 500px;
+                                         }
+
+                                         .thirth-list {
+                                             margin-top: -100px;
+                                             line-height: 30px;
+                                             list-style: none;
+                                             text-decoration: none;
+                                             padding-left: 700px;
+                                         }
+
+                                         .fourth-list {
+                                             margin-top: -130px;
+                                             line-height: 30px;
+                                             list-style: none;
+                                             text-decoration: none;
+                                             padding-left: 900px;
+                                         }
+
+
+
+@media(max-width:1060px){
+     .pers{
+        margin-left: -90px;
+    }
+     .pers2{
+        margin-left: -90px;
+    }
+     .pers3{
+        margin-left: -90px;
+    }
+}
+
+@media(max-width:1000px){
+    .pers{
+        margin-left: -50px;
+    }
+    .text{
+        font-size: 50px;
+    }
+    .with{
+        margin-left: -200px;
+    }
+    .btn-default2{
+        margin-left: 330px;
+    }
+    .btn-success2{
+        margin-left: 330px;
+    }
+}
+
+
+@media(max-width:790px){
+
+    .with{
+        margin-left: -300px;
+    }
+    .btn-default2{
+        margin-left: 230px;
+    }
+    .btn-success2{
+        margin-left: 230px;
+    }
+}
+
+@media(max-width:680px){
+    .text{
+        font-size: 40px;
+    }
+    .links{
+        font-size: 15px;
+        padding: 5px;
+        padding-top: 15px;
+    }
+    .links2{
+        font-size: 15px;
+        padding: 5px;
+        padding-top: 15px;
+    }
+    .with{
+        margin-left: -300px;
+    }
+    .btn-default2{
+        margin-left: 230px;
+    }
+}
+
+
+@media(max-width:590px){
+    .text{
+        font-size: 36px;
+    }
+    .links{
+        font-size: 12px;
+        padding: 5px;
+        padding-top: 15px;
+    }
+    .links2{
+        font-size: 12px;
+        padding: 5px;
+        padding-top: 15px;
+    }
+    .with{
+        margin-left: -400px;
+    }
+    .btn-default2{
+        margin-left: 130px;
+    }
+       .btn-success2{
+        margin-left: 130px;
+    }
+
+}
+@media(max-width:535px){
+    .navbar-brand{
+        font-size: 22px;
+    }
+    .text{
+        font-size: 32px;
+    }
+    .links{
+        font-size: 10px;
+        padding: 2px;
+        padding-top: 17px;
+    }
+    .links2{
+        font-size: 10px;
+        padding: 2px;
+        padding-top: 17px;
+    }
+    .with{
+        margin-left: -500px;
+    }
+    .btn-default2{
+        margin-left: 30px;
+    }
+    .btn-success2{
+        margin-left: 30px;
+    }
+    .text{
+        line-height: 40px;
+    }
+}

@@ -1,0 +1,468 @@
+@font-face {
+font-family: Source Sans Pro;
+src: url(fonts/SourceSansPro-Regular.otf);
+}
+@font-face {
+font-family:Pt Serif;
+src: url(fonts/PTS76F.ttf);
+}
+@font-face {
+font-family: Playfair Display;
+src: url(fonts/PlayfairDisplay-Regular.otf);
+}
+.portfolio a{
+    list-style: none;
+    text-decoration: none;
+    color:#1d1d1c;
+   position: absolute;
+    font-size: 24px;
+    font-style: italic;
+    font-family: 'Source Sans Pro';
+   padding-top: 6px;
+   right: 0;
+    top: 0;
+    padding-right:150px;
+
+}
+.about a{
+    list-style: none;
+    text-decoration: none;
+    color:#1d1d1c;
+   position: absolute;
+    font-size: 24px;
+    font-style: italic;
+    font-family: 'Source Sans Pro';
+   padding-top: 6px;
+   right: 0;
+    top: 0;
+    padding-right: 50px;
+
+}
+.logo{
+    position: absolute;
+    width: 70px;
+    height: 88px;
+}
+.brand a{
+  list-style: none;
+    text-decoration: none;
+    color:#1d1d1c;
+   position: absolute;
+    font-size: 28px;
+    font-style: italic;
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    padding-left: 90px;
+    padding-top: 3px;
+}
+.back-body{
+
+    margin-top: -20px;
+    width: 100%;
+    height: 700px;
+}
+.back{
+    width: 100%;
+    height: 100%;
+}
+.text-present{
+   letter-spacing: 4px;
+    color: white;
+    font-size: 45px;
+    font-family: 'Pt Serif';
+    font-weight: 700;
+    margin-top: -480px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+.links{
+    width: 100%;
+    text-align: center;
+}
+.link1{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: -325px;
+ margin-left: -80px;
+}
+.link-icon{
+    width: 100%;
+    height: 100%;
+}
+.link2{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: -325px;
+}
+.link3{
+    margin-left: 80px;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: -325px;
+}
+.tittled{
+    letter-spacing: 4px;
+    font-family: 'Playfair Display';
+    color: #1d1d1c;
+    font-size: 46px;
+    font-weight: 600;
+    margin-top: 30px;
+    text-align: center;
+}
+.front{
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+}
+
+                                                        /*ссылки на другие странички*/
+.block1 {
+
+
+  width:100%;
+
+  position: relative;
+
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.block2 {
+
+
+  width:100%;
+
+  position: relative;
+
+  cursor: pointer;
+  overflow: hidden;
+}
+
+
+.block3 {
+
+
+  width:100%;
+
+  position: relative;
+
+  cursor: pointer;
+  overflow: hidden;
+}
+
+                                                            /*всплывающее окно*/
+
+.block__mask {
+
+  position: absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  opacity: 0;
+  height: 100%;
+  background-color: #363636;
+
+
+  transition: all .27s ease-in-out;
+}
+
+
+
+
+.link-front{
+    border-width: 2px;
+    background-color: #363636;
+    margin-left: 25px;
+    border-radius: 0px;
+    width: 80px;
+    height: 35px;
+    margin-top:20px;
+    text-align: center;
+    color: white;
+    padding: 3 0 0 0;
+}
+.tittled-link{
+    margin-top: 50px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    margin-left: 25px;
+}
+.and{
+    margin-top: 5px;
+    font-size: 24px;
+    color: white;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    margin-left: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+                                                              /*всплыв при наведении*/
+.block1:hover .block__mask {
+  opacity: .85;
+  transform: translateY(0%);
+}
+.block2:hover .block__mask {
+  opacity: .85;
+  transform: translateY(0%);
+}
+.block3:hover .block__mask {
+  opacity: .85;
+  transform: translateY(0%);
+}
+.link-port{
+    padding: 10px;
+    display: inline-block;
+}
+@media(max-width:1044px){
+    .tittled-link{
+        font-size: 22px;
+        margin-top: 15px;
+    }
+    .and{
+        font-size: 18px;
+        margin-top: 2px;
+    }
+}
+@media(max-width:1033px){
+    .text-present{
+
+        font-size: 40px;
+    }
+    .back-body{
+        height: 650px;
+    }
+}
+@media(max-width:926px){
+    .back-body{
+        height: 600px;
+
+    }
+    .links{
+        margin-top: 20px;
+    }
+
+}
+@media(max-width:830px){
+    .link-front{
+
+        text-align: center;
+       padding-top: 2px;
+
+        width: 75px;
+        height: 30px;
+    }
+    .tittled{
+        font-size: 40px;
+    }
+    .text-present{
+        margin-top: -400px;
+    }
+     .back-body{
+        height: 550px;
+
+    }
+    .links{
+        margin-top: 95px;
+    }
+
+}
+
+@media(max-width:768px){
+     .tittled-link{
+        font-size: 35px;
+        margin-top: 35px;
+    }
+    .and{
+        font-size: 30px;
+        margin-top: 12px;
+    }
+    .link-front{
+        margin-top: 25px;
+        width: 95px;
+        height: 45px;
+        padding-top: 10px;
+    }
+    .front
+    {
+        padding: 20px;
+    }
+    .block__mask{
+         top:18px;
+  left:18px;
+  bottom:18px;
+  right:18px;
+    }
+    .back-body{
+        height: 500px;
+
+    }
+
+   .text-present{
+        font-size: 35px;
+    }
+    .portfolio a{
+        font-size: 20px;
+    }
+
+    .about a{
+        font-size: 20px;
+    }
+}
+@media(max-width:630px){
+     .tittled{
+        font-size: 35px;
+    }
+    .links{
+        margin-top: 115px;
+    }
+     .text-present{
+        margin-top: -380px;
+    }
+
+   .back-body{
+        height: 450px;
+
+    }
+
+}
+@media(max-width:500px){
+    .tittled-link{
+        font-size: 30px;
+        margin-top: 35px;
+    }
+    .and{
+        font-size: 25px;
+        margin-top: 12px;
+    }
+    .link-front{
+        margin-top: 25px;
+        width: 90px;
+        height: 40px;
+        padding-top: 10px;
+    }
+     .tittled{
+        font-size: 30px;
+    }
+     .links{
+        margin-top: 145px;
+    }
+     .text-present{
+        margin-top: -330px;
+    }
+    .back-body{
+        height: 400px;
+
+    }
+    .link1{
+        margin-left: -90;
+    }
+    .link3{
+        margin-left: 70px;
+    }
+   .text-present{
+        font-size: 30px;
+    }
+
+     .portfolio a{
+        font-size: 18px;
+         padding-top: 12px;
+         padding-right: 80px;
+    }
+
+    .about a{
+        font-size: 18px;
+         padding-top: 12px;
+         padding-right: 20px;
+    }
+    .brand{
+        font-size: 25px;
+        padding-top: 5px;
+        padding-left: 85px;
+    }
+}
+@media(max-width:420px){
+    .tittled-link{
+        font-size: 25px;
+        margin-top: 35px;
+    }
+    .and{
+        font-size: 20px;
+        margin-top: 12px;
+    }
+    .link-front{
+        margin-top: 25px;
+        width: 85px;
+        height: 35px;
+        padding-top: 5px;
+    }
+     .tittled{
+        font-size: 25px;
+    }
+     .links{
+        margin-top: 145px;
+    }
+     .text-present{
+        margin-top: -310px;
+    }
+    .back-body{
+        height: 350px;
+
+    }
+   .text-present{
+        font-size: 25px;
+    }
+
+}
+@media(max-width:378px){
+    .tittled-link{
+        font-size: 20px;
+        margin-top: 35px;
+    }
+    .and{
+        font-size: 15px;
+        margin-top: 7px;
+    }
+    .link-front{
+        margin-top: 15px;
+    }
+
+     .links{
+        margin-top: 195px;
+    }
+     .text-present{
+        margin-top: -250px;
+    }
+    .back-body{
+        height: 300px;
+
+    }
+   .text-present{
+        font-size: 20px;
+    }
+
+     .brand{
+        font-size: 20px;
+        padding-top: 10px;
+         padding-left: 67px;
+    }
+    .logo{
+        width: 63px;
+        height: 81px;
+    }
+}

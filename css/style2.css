@@ -1,0 +1,292 @@
+@font-face {
+font-family: Source Sans Pro;
+src: url(fonts/SourceSansPro-Regular.otf);
+}
+@font-face {
+font-family:Pt Serif;
+src: url(fonts/PTS76F.ttf);
+}
+@font-face {
+font-family: Playfair Display;
+src: url(fonts/PlayfairDisplay-Regular.otf);
+}
+
+body{
+    background-image: url(fon.png);
+     background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.home a{
+    list-style: none;
+    text-decoration: none;
+    color:#1d1d1c;
+   position: absolute;
+    font-size: 24px;
+
+    font-family: 'Source Sans Pro';
+   padding-top: 6px;
+   right: 0;
+    top: 0;
+    margin-right:150px;
+
+}
+.about a{
+    list-style: none;
+    text-decoration: none;
+    color:#1d1d1c;
+   position: absolute;
+    font-size: 24px;
+
+    font-family: 'Source Sans Pro';
+   padding-top: 6px;
+   right: 0;
+    top: 0;
+    padding-right: 50px;
+
+}
+.logo{
+    z-index: 2;
+    position: absolute;
+    width: 70px;
+    height: 88px;
+}
+.brand a{
+  list-style: none;
+    text-decoration: none;
+    color:#1d1d1c;
+   position: absolute;
+    font-size: 28px;
+    font-style: italic;
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    padding-left: 90px;
+    padding-top: 3px;
+}
+
+.image-link{
+    margin: 100px;
+}
+.respon{
+  margin-top: 250px;
+    width: 100%;
+
+    z-index: 2;
+ padding: 20px;
+}
+.respon2{
+
+    width: 100%;
+
+    z-index: 2;
+ padding: 20px;
+}
+
+.name-page{
+    font-size: 36px;
+    font-weight: 600;
+    margin-left: 130px;
+    font-family: 'Source Sans Pro';
+    margin-top: 60px;
+    position: absolute;
+    z-index: 2;
+    color: #4F4F4F;
+}
+.discription{
+    font-size: 25px;
+    font-family: 'Source Sans Pro';
+    margin-left: 130px;
+    margin-top: 130px;
+    position: absolute;
+    z-index: 2;
+    color: #696969;
+}
+.linked a{
+  margin: 20px;
+    font-family: 'Source Sans Pro';
+    font-size: 15px;
+    color: #696969;
+    position: relative;
+    z-index: 2;
+
+
+}
+.links{
+display: none;
+    margin-left: 120px;
+    margin-top: 920px;
+}
+@media(max-width:2900px){
+  .discription{
+    font-size: 30px;
+    }}
+    @media(max-width:1470px){
+      .respon{
+        margin-top: 400px;
+      }
+    }
+    @media(max-width:1350px){
+      .discription{
+        font-size: 25px;
+      }
+    }
+    @media(max-width:1305px){
+      .respon{
+        margin-top: 300px;
+      }
+    }
+    @media(max-width:1165px){
+      .discription{
+        font-size: 20px;
+      }
+      .respon2{
+        padding: 5px;
+      }
+          .respon{
+              margin-top: 320px;
+              padding: 5px;
+          }
+    }
+@media(max-width:1050px){
+    .links{
+      display: block;
+        margin-left: 50px;
+        margin-top: 840px;
+    }
+
+    .name-page{
+        margin-left: 80px;
+    }
+
+    .image-link{
+        margin: 40px;
+
+    }
+
+}
+@media(max-width:1005px){
+     .name-page{
+        margin-left: 60px;
+    }
+    .name-page{
+        font-size: 30px;
+        margin-top: 40px;
+    }
+    .discription{
+        margin-top: 110px;
+        margin-left: 50px;
+        font-size: 18px;
+    }
+
+    .image-link{
+        margin: 30px;
+
+    }
+}
+@media(max-width:925px){
+
+    .image-link{
+        margin: 30px;
+
+    }
+
+}
+@media(max-width:825px){
+    .discription{
+        margin-top: 90px;
+    }
+
+    .image-link{
+        margin: 15px;
+
+    }
+
+}
+@media(max-width:768px){
+    .links{
+        margin-left:30px;
+        margin-top: 840px;
+    }
+     .name-page{
+        margin-left: 40px;
+    }
+    .discription{
+        margin-left: 40px;
+        font-size: 18px;
+    }
+    .image-link{
+        margin: 15px;
+
+    }
+  .respon2{
+    margin-top: 20px;
+  }
+}
+@media(max-width:680px){
+.links{
+  margin-top: 700px;
+  margin-bottom: 70px;
+}
+    .about a{
+        font-size: 20px;
+        padding-right: 10px;
+    }
+   .home  a{
+       font-size: 20px;
+
+
+    }
+     .respon2{
+
+
+        margin-top: 20px;
+    }
+
+}
+@media(max-width:553px){
+  .respon{
+    margin-top: 370px;
+  }
+    .image-link{
+        margin: 15px;
+
+    }
+
+
+}
+@media(max-width:487px){
+    .brand{
+        font-size: 22px;
+
+    }
+
+    .about a{
+        font-size:15px;
+        padding-top: 15px;
+    }
+   .home  a{
+    margin-right: 80px;
+       font-size: 15px;
+        padding-top: 15px;
+
+    }
+.respon{
+  margin-top: 450px;
+  padding: 2px;
+}
+.respon2{
+  padding: 2px;
+}
+}
+@media(max-width:360px){
+  .home  a{
+   margin-right: 60px;
+
+
+   }
+  .respon{
+    margin-top: 520px;
+    padding: 1px;
+  }
+}

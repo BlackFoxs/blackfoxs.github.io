@@ -1,0 +1,92 @@
+div.row {
+    margin: 40px;
+}
+
+.navbar-inverse .navbar-toggle {
+    background-color: chartreuse;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #FFFAFA;
+}
+
+a.spoiler: after {
+    content: "[-]";
+}
+
+a.spoiler.collapsed: after {
+    content: "[+]";
+}
+
+@media screen and {
+    max-width: 767px
+}
+
+{
+    .row:before {
+        content: [ 2 .col-xs-6]
+    }
+}
+
+@media screen and {
+    min-width: 768px
+}
+
+and {
+    max-width: 991px
+}
+
+{}
+
+@media screen and {
+    max-width: 992px
+}
+
+and {
+    max-width: 1199
+}
+
+{}
+
+@media screen and {
+    min-width: 1200px
+}
+
+{}
+
+@media screen and (max-width: 480px) {
+    #grid[data-columns]::before {
+        content: '1 .column.size-1of1';
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    #grid[data-columns]::before {
+        content: '2 .column.size-1of2';
+    }
+}
+
+@media screen and (min-width: 769px) {
+    #grid[data-columns]::before {
+        content: '3 .column.size-1of3';
+    }
+}
+
+
+/* Again, you’re free to use and define the classes: */
+
+.column {
+    float: left;
+}
+
+.size-1of1 {
+    width: 100%;
+}
+
+.size-1of2 {
+    width: 50%;
+}
+
+.size-1of3 {
+    width: 33.333%;
+}
