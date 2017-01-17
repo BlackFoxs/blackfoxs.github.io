@@ -3,8 +3,8 @@ font-family: Source Sans Pro;
 src: url(fonts/SourceSansPro-Regular.otf);
 }
 @font-face {
-font-family:Pt Serif;
-src: url(fonts/PTS76F.ttf);
+font-family: Pt Serif;
+src: url(fonts/PTS56F.ttf);
 }
 @font-face {
 font-family: Playfair Display;
@@ -68,22 +68,27 @@ src: url(fonts/PlayfairDisplay-Regular.otf);
 .text-present{
    letter-spacing: 4px;
     color: white;
-    font-size: 45px;
+    font-size: 55px;
+
     font-family: 'Pt Serif';
     font-weight: 700;
+    padding: 200px;
+    padding-top: 0px;
     margin-top: -480px;
     width: 100%;
     position: absolute;
     text-align: center;
 }
 .links{
+  margin-left: -30px;
+  margin-top: 30px;
     width: 100%;
     text-align: center;
 }
 .link1{
     position: absolute;
-    width: 45px;
-    height: 45px;
+    width: 55px;
+    height: 55px;
     margin-top: -325px;
  margin-left: -80px;
 }
@@ -93,15 +98,15 @@ src: url(fonts/PlayfairDisplay-Regular.otf);
 }
 .link2{
     position: absolute;
-    width: 45px;
-    height: 45px;
+    width: 55px;
+    height: 55px;
     margin-top: -325px;
 }
 .link3{
     margin-left: 80px;
     position: absolute;
-    width: 45px;
-    height: 45px;
+    width: 55px;
+    height: 55px;
     margin-top: -325px;
 }
 .tittled{
@@ -229,6 +234,13 @@ src: url(fonts/PlayfairDisplay-Regular.otf);
     padding: 10px;
     display: inline-block;
 }
+@media(max-width:1270px){
+  .text-present{
+    font-size: 45px;
+    padding: 150px;
+    padding-top: 0px;
+  }
+}
 @media(max-width:1044px){
     .tittled-link{
         font-size: 22px;
@@ -259,6 +271,10 @@ src: url(fonts/PlayfairDisplay-Regular.otf);
 
 }
 @media(max-width:830px){
+  .text-present{
+    padding: 70px;
+    padding-top: 0px;
+  }
     .link-front{
 
         text-align: center;
@@ -325,6 +341,11 @@ src: url(fonts/PlayfairDisplay-Regular.otf);
     }
 }
 @media(max-width:630px){
+  .text-present{
+
+    padding: 20px;
+    padding-top: 0px;
+  }
      .tittled{
         font-size: 35px;
     }
@@ -370,20 +391,24 @@ src: url(fonts/PlayfairDisplay-Regular.otf);
 
     }
     .link1{
+      width: 40px;
+      height: 40px;
         margin-left: -90;
     }
+    .link2{
+      width: 40px;
+      height: 40px;
+    }
     .link3{
+      width: 40px;
+      height: 40px;
         margin-left: 70px;
     }
    .text-present{
         font-size: 30px;
     }
 
-     .portfolio a{
-        font-size: 18px;
-         padding-top: 12px;
-         padding-right: 80px;
-    }
+
 
     .about a{
         font-size: 18px;
@@ -392,8 +417,8 @@ src: url(fonts/PlayfairDisplay-Regular.otf);
     }
     .brand{
         font-size: 25px;
-        padding-top: 5px;
-        padding-left: 85px;
+        padding-top: 1px;
+
     }
 }
 @media(max-width:420px){
@@ -458,8 +483,8 @@ src: url(fonts/PlayfairDisplay-Regular.otf);
 
      .brand{
         font-size: 20px;
-        padding-top: 10px;
-         padding-left: 67px;
+        padding-top: 1px;
+margin-left: -10px;
     }
     .logo{
         width: 63px;

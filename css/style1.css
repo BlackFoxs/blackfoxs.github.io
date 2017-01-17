@@ -68,23 +68,20 @@ background-size: cover;
 
 .image-link{
     margin: 100px;
+    margin-top: -60px;
+}
+.image-link2{
+    margin: 100px;
+    margin-top: -60px;
 }
 .respon{
-  max-height: 550px;
-    margin-top:200px;
+
+
     width: 100%;
-    position: absolute;
-    z-index: 2;
+
  padding: 20px;
 }
-.respon2{
-    max-height: 550px;
-  margin-top: 200px;
-    width: 100%;
-    position: absolute;
-    z-index: 2;
- padding: 20px;
-}
+
 
 .name-page{
     font-size: 36px;
@@ -96,14 +93,21 @@ background-size: cover;
     z-index: 2;
     color: #4F4F4F;
 }
+.name2{
+  margin-left: 100px;
+}
 .discription{
     font-size: 25px;
     font-family: 'Source Sans Pro';
-    margin-left: 130px;
-    margin-top: 130px;
-    position: absolute;
-    z-index: 2;
+    margin: 130px;
+
+
     color: #696969;
+}
+.dis2{
+  margin: 100px;
+  margin-top: 140px;
+  margin-bottom: 80px;
 }
 .linked a{
   margin: 20px;
@@ -115,20 +119,49 @@ background-size: cover;
 
 
 }
+ .ssilka-desing-img{
+   padding-left: 0px;
+   padding-right: 0px;
+ }
+.ssilka-verstka-img{
+  padding-left: 0px;
+  padding-right: 0px;
+}
 .links{
     margin-left: 120px;
     margin-top: 890px;
 }
-@media(max-width:1150px){
-  body{
-    background-size: auto;;
+.links2{
+  display: none;
+}
+
+}
+@media(max-width:1250px){
+  .image-link2{
+    margin: 100px;
+    margin-top: -30px;
+  }
+  .links{
+
+      margin-top: 690px;
   }
 }
 @media(max-width:1050px){
+  .image-link2{
+    margin: 70px;
+    margin-top: -6s0px;
+  }
 
+  body{
+    background-size: auto;
+  }
+  .desing{
+    background-size: cover;;
+  }
     .links{
       text-align: center;
         margin-top:650px;
+          margin-left: 0px;
     }
 
     .name-page{
@@ -140,50 +173,61 @@ background-size: cover;
     }
     .image-link{
         margin: 40px;
+        margin-top: -90px;
 
     }
-    .respon2{
-        margin-top: 200px;
-    }
+
 }
 @media(max-width:925px){
+  .respon{
+      padding: 15px;
 
+  }
+  .links{
+    margin-top: 720px;
 
+  }
      .name-page{
         margin-left: 60px;
     }
     .discription{
         margin-left: 60px;
-        font-size: 21px;
+
     }
-     .respon2{
-        margin-top:300px;
-    }
-    .respon{
-        margin-top: 300px;
-    }
+
+
     .image-link{
         margin: 30px;
+        margin-top: -100px;
 
     }
 }
 @media(max-width:825px){
+
     .discription{
         font-size: 21px;
     }
     .image-link{
         margin: 30px;
-
+margin-top: -100px;
     }
 
 }
 @media(max-width:768px){
+  .image-link2{
+    margin: 30px;
+    margin-top: -30px;
+  }
+  .respon{
+      padding: 15px;
 
+  }
      .name-page{
         margin-left: 40px;
     }
     .discription{
-        margin-left: 40px;
+        margin: 40px;
+        margin-top: 140px;
         font-size: 18px;
     }
     .image-link{
@@ -191,106 +235,83 @@ background-size: cover;
 
 
     }
-    .respon2{
-        padding: 5px;
-        margin-top: 310px;
-    }
-    .respon{
-        padding: 5px;
-        margin-top: 310px;
-    }
+.links{
+  margin-top: 640px;
+}
 }
 @media(max-width:680px){
 
-        .portfolio a{
-         padding-right: 70px;
-        font-size: 20px;
 
-    }
     .about a{
         font-size: 20px;
         padding-right: 10px;
     }
    .home  a{
        font-size: 20px;
-        padding-right: 150px;
+        margin-right: 80px;
 
     }
-     .respon2{
-        padding: 5px;
-        margin-top: 300px;
-    }
+
     .respon{
         padding: 5px;
-        margin-top: 300px;
+
+    }
+    .links{
+      margin-top: 570px;
     }
 }
 @media(max-width:553px){
   .links{
-    margin-left: -50px;
+margin-top: 480px;
   }
     .image-link{
         margin: 10px;
 
     }
-    .respon2{
-        padding: 5px;
-        margin-top: 330px;
-    }
-    .respon{
-        padding: 5px;
-        margin-top: 330px;
-    }
+
 }
 @media(max-width:487px){
+  .name-page{
+    font-size: 23px;
+  }
+  .discription{
+    margin-top: 120px;
+  }
     .brand{
         font-size: 22px;
-        padding-left: 78px;
-        padding-top: 10px;
-    }
-    .portfolio a{
-       padding-right: 55px;
-         padding-top:15px;
-        font-size: 15px;
 
+        padding-top: 1px;
     }
+
     .about a{
-        font-size:15px;
-        padding-top: 15px;
+        font-size:18px;
+        padding-top: 12px;
     }
    .home  a{
-    padding-right: 120px;
-       font-size: 15px;
-        padding-top: 15px;
+  margin-right: 70px;
+       font-size: 18px;
+        padding-top: 12px;
 
     }
-    .image-link{
-        margin: 10px;
 
-    }
-    .respon2{
-        padding: 5px;
-        margin-top: 350px;
-    }
-    .respon{
-        padding: 5px;
-        margin-top: 350px;
+    .links{
+      margin-top: 400px;
     }
 }
 @media(max-width:360px){
-  .links{
-    margin-left: -20px;
+.brand a{
+  font-size: 20px;
+  margin-top: 5px;
+}
+  .about a{
+      font-size:14px;
+      padding-top: 16px;
   }
-    .image-link{
-        margin: 10px;
+ .home  a{
+margin-right: 50px;
+     font-size: 14px;
+      padding-top: 16px;
 
-    }
-    .respon2{
-        padding: 5px;
-        margin-top: 380px;
-    }
-    .respon{
-        padding: 15px;
-        margin-top: 380px;
-    }
+  }
+
 }
