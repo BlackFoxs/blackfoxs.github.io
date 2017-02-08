@@ -127,6 +127,9 @@ background-size: cover;
   padding-left: 0px;
   padding-right: 0px;
 }
+.links5{
+  display: none;
+}
 .links{
     margin-left: 120px;
     margin-top: 890px;
